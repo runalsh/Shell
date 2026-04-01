@@ -1360,7 +1360,7 @@ install_status(){
 }
 
 install_step_all(){
-    install_status
+    # install_status
     disable_selinux
     install_prepare
     TEMP_DIR_PATH=$(mktemp -d)
